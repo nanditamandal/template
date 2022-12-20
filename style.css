@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-full{
+    height:100vh;
+}
+.container-fluid{
+    width: 100%;
+   
+}
+a {
+    list-style-type: none;
+}
+header{
+    display:flex;
+    /* background-color: #fff!important; */
+    background-color:white;
+    position: fixed;
+    top:0;
+
+    
+}
+.logo{
+    width:30%;
+    /* float: left; */
+    
+ 
+ 
+}
+.nav {
+   min-width:70%;
+    float:right;
+    text-align: right;
+
+}
+.nav i{
+    font-size:15px;
+    padding: 0 5px;
+}
+
+.logo li a, .nav li a{
+    text-decoration: none;
+    color:black;
+}
+.logo li, .nav li{
+  
+    display:inline-block !important;
+    text-align: center;
+    padding:20px 10px;
+    
+}
+.nav li:hover, .logo li:hover{
+    background-color:lightgray;
+}
+.bg-img{
+    min-width:100%;
+    /* height:auto; */
+    min-height:100%; 
+    background-image:url("./image/background-img.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    color: white;
+
+    padding:150px 30px;
+    /* position: relative; */
+    
+}
+.bg-img p{
+    padding:20px 0;
+
+}
+.bg-img a{
+    text-decoration:none;
+    color:black;
+    padding:20px 30px;
+    background-color:lightgray;
+}
+.bg-img div i{
+    color: #757575!important;
+}
+.icon{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+.heading{
+    color:black;
+    text-align: center;
+    padding:50px 0 30px 0;
+   
+}
+.heading h1{
+    font-weight:normal;
+    padding:20px 0;
+
+}
+
+.heading p{
+    font-weight:normal;
+    padding:10px 0;
+    font-size: 15px;;
+}
+.company{
+    display:flex;
+
+}
+.about{
+     width: 25%;
+     padding: 40px 20px;
+     text-align: center;
+     font-size: 20px;
+    
+
+}
+.about i{
+    font-size:70px;
+    padding: 0 0 30px 0;
+}
+.about h4{
+    padding: 30px 0;
+    font-weight: normal;
+}
+.design-section{
+    color: #000!important;
+    background-color: #f1f1f1!important;
+
+}
+/* .design-section div{
+    margin:auto 0;
+} */
+.design{
+   
+    display:flex;
+    padding: 200px 0;
+   
+}
+.design-details{
+    width:50%;
+    text-align:left;
+    float:left;
+    padding: 0 20px;
+    
+}
+.img{
+    width:50%;
+    float:right;
+    padding: 0 20px;
+    
+  
+
+}
+.img img{
+    border-radius:10px;
+}
+.design-details a{
+    padding:20px 30px;
+    background-color:black;
+    text-decoration:none;
+    color:white;
+}
+.design-details a:hover{
+    background-color:lightgray;
+    color:black;
+}
+.team-members{
+    display: flex;
+}
+.member{
+    width:25%;
+    text-align:left;
+ 
+    
+    box-shadow: 0 10px 8px 0 #999;
+    margin:10px;
+
+}
+.member img{
+    width:100% !important;
+
+}
+.member h1, .member h4, p{
+    padding:10px 30px 10px 30px;
+}
+.member a{
+    text-decoration:none;
+    padding:10px 30px;
+    color: #000!important;
+    background-color: #f1f1f1!important;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.member a:hover{
+    background-color: gray !important;
+}
+.numbers{
+    margin: 40px 0;
+    display:flex;
+    color: #fff!important;
+    background-color: #616161!important;
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+
+  
+}
+.numbers div{
+    width:25%;
+   
+    line-height: 1.8;
+    text-align: center!important;
+
+
+}
+.number span{
+    font-size: 36px;
+
+}
+
+.gallery{
+    display:flex;
+
+}
+.gallery div{
+    width: 25%;
+    padding:10px;
+}
+.gallery img{
+    width: 100%;
+}
+.skills .heading, .skill-bar{
+    text-align:left!important;
+}
+.skills{
+    color: #000!important;
+    background-color: #f1f1f1!important;
+    padding-top: 50px!important;
+    padding-bottom: 30px!important;
+    margin-top:100px;
+    display:flex;
+}
+.skill-bar{
+    width: 50%;
+}
+.skill-heading{
+    width:50%;
+  
+}
+.skill-heading h1{
+    font-weight: normal;
+    padding: 0 30px;
+}
+.bar{
+    width:90%;
+  
+    background-color:lightgray;
+    text-align: center;
+    color: #000;
+}
+.inside-bar{
+    width:90%;
+    background-color:darkgray;
+    padding:5px 0;
+    
+}
+.inside-bar85{
+    width:85%;
+    background-color:darkgray;
+    padding:5px 0;
+    
+}
+.inside-bar75{
+    width:75%;
+    background-color:darkgray;
+    padding:5px 0;
+    
+}
+.skill-bar h4{
+    font-weight: normal!important;
+    font-size: 20px;
+    padding:20px 0 20px 0;
+}
+.skill-bar i{
+    font-weight: normal !important;
+    padding: 0 10px 0 0;
+    
+}
+.pricing-list{
+ 
+    background-color: #616161!important;
+}
+.pricing-section{
+    display:flex;
+}
+.pricing{
+    width:33.33%;
+    float: left;
+    text-align: center;
+    margin: auto 10px;
+}
+.pricing ul li{
+    border-bottom:1px solid rgb(219, 212, 212);
+    background:white;
+    padding:8px 16px;
+    font-size: 15px;
+    list-style-type:none;
+}
+.pricing-header{
+    padding: 32px 0 !important;
+    font-weight: bolder !important;
+    font-size:32px;
+    color: #fff!important;
+    background-color: #000 !important;
+    font-size: 24px!important;
+}
+.price{
+    line-height: 1.8;
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+
+}
+
+
+.btn a{
+    background: #000;
+    color: #fff;
+    padding:10px 20px;
+    text-decoration: none;
+    
+}
+.btn{
+    padding:24px 0 !important;
+    background-color: #f1f1f1!important;
+   
+}
+.pricing-section div:hover{
+    box-shadow: 0 10px 8px 0 #999;
+}
+.pro{
+    padding: 50px 0 !important;
+    font-weight: bolder !important;
+    font-size:32px;
+    font-size: 24px!important;
+
+    color: #fff!important;
+    background-color: #f44336!important;
+
+}
+.btn a:hover{
+    background-color: gray !important;
+    color:black;
+}
+.map img{
+    max-width:100%;
+    height:auto;
+    padding:0 10px;
+}
+
+footer{
+    margin-top:80px;
+    background-color:black !important;
+    color:white;
+    text-align:center;
+    padding: 70px 0;
+    
+
+}
+footer a{
+
+    padding: 10px 20px;
+    background-color:white;
+    text-decoration: none;
+    color:black;
+  
+}
